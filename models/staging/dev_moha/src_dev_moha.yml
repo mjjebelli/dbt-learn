@@ -1,0 +1,15 @@
+version: 2 
+
+sources:
+  - name: dev_moha
+    description: A clone of DEV_MOHA database
+    database: DEV_MOHA
+    tables:
+      - name: DATA
+        description: Raw DATA table data
+        columns:
+          - name: id
+            description: the primary key for customers
+            tests:
+              - unique
+              - not_null

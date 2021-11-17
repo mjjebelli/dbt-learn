@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: stg_test
+    description: Here is a test model
+    columns:
+      - name: customer_id
+        description: here is the primary key
+      - name: fullname
+        description: putting firstname and lastname together
+
+
+    
